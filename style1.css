@@ -1,0 +1,205 @@
+@charset "UTF-8";
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: column;
+      -ms-flex: column;
+          flex: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header i {
+  display: block;
+  margin-right: 275px;
+  position: absolute;
+  left: 25px;
+  color: #000;
+}
+
+header img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#logo {
+  width: 80%;
+  background: white;
+  text-align: center;
+  border-bottom: 2px;
+  padding: 5px 46px;
+}
+
+#grandconteneur {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #e9e9e9;
+}
+
+.propositions-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: -50px;
+  background-color: #e9e9e9;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.propositions-menu i {
+  font-size: 2em;
+  color: grey;
+  background: color #e9e9e9;
+  margin-right: 15px;
+}
+
+.propositions-menu h1 {
+  margin-left: 15px;
+}
+
+.entréesplatsdesserts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  background-color: #e9e9e9;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #e9e9e9;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.title .barreverte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #99E2D0;
+  width: 55px;
+  height: 3px;
+  margin-top: -18px;
+}
+
+.assiette {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  height: 20%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  -webkit-box-shadow: 0 5px 15px 0 #c3c3c3;
+          box-shadow: 0 5px 15px 0 #c3c3c3;
+}
+
+.assiette .produit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65%;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+.assiette .prix {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -25px;
+  margin-bottom: 25px;
+  margin-left: 45px;
+}
+
+.assiette .btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background: linear-gradient(#ff79da, #9356dc);
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  text-align: center;
+  border-radius: 25px;
+  font-size: 25px;
+  color: #fff;
+  -webkit-box-shadow: 0 5px 15px 0 #c3c3c3;
+          box-shadow: 0 5px 15px 0 #c3c3c3;
+  font-weight: bold;
+  margin: 15px 30px;
+  padding: 15px 30px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  font-size: 20px;
+  background: #333;
+}
+
+footer ul li {
+  color: #fff;
+  text-decoration: none;
+}
+
+.textefooter {
+  text-decoration: none;
+}
+
+.textefooter a :hover {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style1.css.map */
