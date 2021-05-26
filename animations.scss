@@ -6,15 +6,41 @@
   }
  
 // Spinner
-@keyframes spin{
-  0%{
-      transform: rotate(0deg);
-  }
-  100% {
-      transform: rotate(360deg);
-  }
+@keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
 }
 
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes fadespinner
+{
+  From {
+    Opacity : 1;
+  }
+  To {
+    Opacity : 0;
+  }
+}
+@keyframes color {
+  100%,
+  0% {
+    stroke: $primary;
+  }
+  40% {
+    stroke: $second;
+  }
+  66% {
+    stroke: $third;
+  }
+  80%,
+  90% {
+    stroke: $second;
+  }
+}
 
 @keyframes rotate-center{
   0% {

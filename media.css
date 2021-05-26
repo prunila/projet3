@@ -1,0 +1,14 @@
+@media (max-width: 1024px) {
+    .fonctionnement{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+.pas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+}
