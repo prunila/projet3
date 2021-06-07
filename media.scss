@@ -1,0 +1,30 @@
+@media (min-width: 1024px) {
+    .headerlogo {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .fonctionnement {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 25%;
+    }
+
+    .pas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 25%;
+    }
+
+    .carteresto {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow: wrap;
+        width: 25%;
+
+    }
+}

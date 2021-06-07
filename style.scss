@@ -1,5 +1,5 @@
-@import url(C:\Users\33677\Desktop\sassworkshop\dart-sass\animations.scss);
-@import url(C:\Users\33677\Desktop\sassworkshop\dart-sass\media.css);
+@import url(C:\Users\33677\Desktop\sassworkshop\dart-sass\animations.css);
+
 $primary:#9356dc;
 $second:#ff79da;
 $third:#99E2D0;
@@ -12,396 +12,518 @@ $boxshadow: 0 5px 15px 0 #c3c3c3;
 
 h1,
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 h3 {
-    font-size: 1.6em;
+    font-size: 1em;
     margin-left: 25px;
 }
 
 body {
-
-
+    width: 100%;
     background: white;
     margin: 0;
     font-size: 1.5rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.headerlogo{
+
+
+
+header {
     display: flex;
-    justify-content: center;
-    height: auto;
-    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
 }
-#petitfonctionnement {
+
+.headerlogo {
+    background: white;
     display: flex;
-    justify-content: space-around;
-    width: auto;
-}
-.pas{
-    display: flex;
-    justify-content: space-around;
+    text-align: center;
     width: 100%;
-    height: auto;
-    margin-left: 20px;
-    
-    p{
-        font-size: 1rem;
+    padding: 5px 46px;
+    border-bottom: 2px solid #f4f4f4;
+    box-shadow: 0 1px 4px rgb (0 0 0 / 30);
+}
+
+header img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    padding: 5px 207px
+}
+
+
+.map {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #e8e8e8;
+
+}
+
+.input-field input {
+    display: flex;
+    margin-left: 25px;
+    height: 90px;
+    border: 0;
+    align-items: center;
+    background-color: transparent;
+    font-size: 40px;
+}
+
+.searchicons {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+    i {
+        font-size: xx-large;
+        display: flex;
+        align-items: center;
+        padding-left: 200px;
+    }
+
+}
+
+
+main {
+    display: flex;
+    background-color: #f2f2f2;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+article.hgroup {
+    background-color: transparent;
+    width: 49%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1;
+
+    h2 {
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+        font-size: 1.6rem;
+        font-family: "Roboto", sans-serif;
     }
 }
-#marker{
-    font-size: 30px;
-    width:100px;
+
+h3 {
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-left: 0;
+}
+
+.coeur {
+    position: relative; 
+    opacity: 1;
+    color: #9d9d9d;
+
+    .pink {
+
+        left: 0;
+        opacity: 0;
+        position: absolute;
+    }
+}
+
+div.coeur :hover {
+    cursor: pointer;
+    overflow: hidden;
+    opacity: 1;
+    background: linear-gradient(#ff79da, #9356dc);
+    -webkit-text-fill-color:transparent ;
+    transition-duration: 1s;
 }
 
 
-.restaurants {
-    display:flex;
- 
-    flex-flow: wrap;
-    justify-content: space-between;
-    width: auto;
-    height: auto;
-    
+
+.hide :hover {
+    opacity: 0;
+}
+
+
+
+.btn {
+    display: inline-block;
+    background: linear-gradient(#ff79da, #9356dc);
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 25px;
+    color: #fff;
+    box-shadow: $boxshadow;
+    font-weight: bold;
+    margin: 15px 30px;
+    padding: 15px 30px;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 1000ms;
+
+    :hover {
+        transform: scale(1.15);
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+.btn1 {
+    display: flex;
+    flex: 1 0 auto;
+    margin-bottom: 20px;
+    text-decoration: none;
+    background: #e9e9e9;
+    border-radius: 30px;
+    text-align: justify;
+    margin-left: 0;
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    font-weight: bold;
+    padding: 20px 15px;
+    box-shadow: $boxshadow;
+    align-items: center;
+    width: 100%;
+
+}
+
+.fonctionnement {
+
+
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px 5px;
+
+}
+
+#petitfonctionnement {
+    width: 100%;
+
+
+}
+
+.pas {
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    margin-left: 25px;
+
+}
+
+.circle {
+
+    left: 12px;
+    margin-top: -7px;
+    background: #9356dc;
+    border-radius: 90%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    width: 25px;
+    padding: 3px 30px;
+    font-weight: bold;
+
+}
+
+.marker {
+    align-items: center;
+    font-weight: 900;
+    color: grey;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#texte {
+    display: flex;
+    justify-content: center;
+
 
 
 }
 
 figure {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 30%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
 }
 
-@media(min-width: 1024px) {
-    header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        background-color: transparent;
-    }
+.carteresto {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    background: #fff;
+    box-shadow: $boxshadow;
+    border-radius: 18px;
+    width: 100%;
 
-    .headerlogo {
-        background: white;
-        display: flex;
-        text-align: center;
+
+    img {
+        object-fit: cover;
         width: 100%;
-        padding: 5px 46px;
-        border-bottom: 2px solid #f4f4f4;
-        box-shadow: 0 1px 4px rgb (0 0 0 / 30);
-    }
-
-    header img {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 90px;
-        padding: 5px 207px
-    }
-
-
-    .map {
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        background-color: #e8e8e8;
 
     }
+}
 
-    .input-field input {
-        display: flex;
-        margin-left: 25px;
-        height: 90px;
-        border: 0;
-        align-items: center;
-        background-color: transparent;
-        font-size: 40px;
+.carteresto a {
+    text-decoration: none;
+    cursor: pointer;
+
+
+}
+
+.carteresto {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+
+    h2 {
+        margin-top: -2px;
+        line-height: -2;
+        width: 80%;
     }
+}
 
-    .searchicons {
-        display: flex;
-        height: 100%;
-        align-items: center;
-        justify-content: space-between;
+.carteresto h3 {
+    margin-top: -10px;
+    width: 80%;
+}
 
-        i {
-            font-size: xx-large;
-            display: flex;
-            align-items: center;
-            padding-left: 200px;
+figcaption {
+    position: relative;
+
+    top: 10px;
+    right: 10px;
+    background: #99e2d0;
+    color: #2c9c81;
+    padding: 3px 10px;
+    font-weight: bold;
+   
+
+}
+
+.étiquette {
+
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    background: #99e2d0;
+    color: #2c9c81;
+    padding: 3px 10px;
+    font-weight: bold;
+    z-index: 999;
+}
+
+.store_contain{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 80%;
+    margin-top: 10px;
+
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 20px;
+    background: #333;
+    color: white;
+
+    img {
+        color: white;
+    }
+}
+
+li {
+    list-style: none;
+    line-height: 2;
+    text-decoration: none;
+    color: white;
+}
+
+
+div#spinnery {
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: spin 5s forwards;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: wait;
+}
+
+#spinnery {
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+            opacity: 1;
+            animation-delay: 3s;
+
+
         }
 
+        100% {
+            transform: rotate(360deg);
+            opacity: 0;
+        }
     }
 
 
-    main {
+    #small {
+        border-bottom: 16px dotted $third;
+        border-top: 16px $second dotted;
+        width: 20%;
+        height: 20%;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.5);
+        position: relative;
         display: flex;
-        background-color: #f2f2f2;
-        width: 100%;
-        flex-direction: column;
-        flex-wrap: nowrap;
+        justify-content: center;
         align-items: center;
+        font-weight: bold;
+        color: linear-gradient(#ff79da, #9356dc);
+        ;
+    }
+}
+
+
+
+
+@media (min-width: 1024px) {
+    .headerlogo {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    header.map {
+        height: 50%;
+    }
+
+    h2,
+    h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+
     }
 
     article.hgroup {
-        background-color: transparent;
-        width: 49%;
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        font-size: 25px;
-        font-weight: bold;
-        line-height: 1;
-
-        h3 {
-            font-size: 25px;
-            text-align: center;
-            line-height: 2;
-            margin-left: 25px;
-        }
-    }
-
-    .hgroup h2 {
         display: flex;
         justify-content: center;
-        text-align: center;
-        line-height: 1.5;
-    }
-
-    .btn {
-        display: inline-block;
-        background: linear-gradient(#ff79da, #9356dc);
-        text-decoration: none;
-        cursor: pointer;
-        border: 0;
-        text-align: center;
-        border-radius: 25px;
-        font-size: 25px;
-        color: #fff;
-        box-shadow: $boxshadow;
-        font-weight: bold;
-        margin: 15px 30px;
-        padding: 15px 30px;
-        transform: scale(1);
-        transition-property: transform;
-        transition-duration: 1000ms;
-
-        :hover {
-            transform: scale(1.15);
-        }
-    }
-
-
-
-
-
-    .btn1 {
-        display: flex;
-        flex: 1 0 auto;
-        margin-bottom: 20px;
-        text-decoration: none;
-        background: #e9e9e9;
-        border-radius: 30px;
-        text-align: justify;
-        margin-left: 0;
-        font-size: 45px;
-        font-family: "Roboto", sans-serif;
-        color: #000;
-        font-weight: bold;
-        padding: 20px 15px;
-        box-shadow: $boxshadow;
         align-items: center;
-        width: 100%;
-
+        font-size: 20px;
+        height: 70%;
     }
 
     .fonctionnement {
-
-        display: flex;
-        flex-direction: column;
-        padding: 15px;
-        margin: 10px 5px;
-
-        h2 {
-            line-height: 2;
-        }
-    }
-
-    #petitfonctionnement {
-        width: 100%;
-        
-
-    }
-
-    .pas {
         display: flex;
         justify-content: space-around;
-        background: #fff;
-
-    }
-
-    .circle {
-        position: absolute;
-        left: 12px;
-        margin-top: -7px;
-        background: #9356dc;
-        border-radius: 90%;
-        color: #fff;
-        display: flex;
-        justify-content: center;
-        width: 25px;
-        padding: 3px 30px;
-        font-weight: bold;
-
-    }
-
-    #marker {
         align-items: center;
-        font-weight: 900;
-        color: grey;
-        display: flex;
-        justify-content: center;
-    
+        flex-flow: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding: 15px;
 
-    }
-
-    #texte {
-        display: flex;
-        justify-content: center;
-
-
-
-    }
-
-    figure {
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 40px;
-        margin-inline-end: 40px;
-    }
-
-    .carteresto {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        margin: 15px;
-
-        background: #fff;
-        box-shadow: $boxshadow;
-        border-radius: 15px;
-        width: 100%;
-
-
-        img {
-            object-fit: cover;
+        #petitfonctionnement {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
             width: 100%;
 
         }
     }
 
-    .carteresto a {
-        text-decoration: none;
-        cursor: pointer;
-
-
+    div.pas a {
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
     }
 
-    .carteresto h2 {
-
-        margin-left: 25px;
-        font-family: "Roboto", sans-serif;
-
+    .pas {
+        flex: 100%;
+        margin-left: 20px;
+        padding: 10px 5px;
     }
 
-    figcaption {
-        position: relative;
-
+    .circle {
+        margin-left: -65px;
         top: 10px;
-        right: 10px;
-        background: #99e2d0;
-        color: #2c9c81;
-        padding: 3px 10px;
-        font-weight: bold;
-        width: 25%;
 
     }
 
-    .étiquette {
 
-        position: absolute;
-        top: 30px;
-        right: 10px;
-        background: #99e2d0;
-        color: #2c9c81;
-        padding: 3px 10px;
-        font-weight: bold;
-        z-index: 999;
+
+    .restaurants {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding: 15px;
+        height: 70%;
+
+        h2 {
+            padding: 15px 0 15px 15px;
+            width: 100%;
+        }
+    }
+
+    .carteresto {
+        display: flex;
+        width: 20%;
+        height: 20%
+    }
+
+
+    .carteresto h2 h3 a {
+        font-size: 0.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+
     }
 
 
     footer {
         display: flex;
-        flex-direction: column;
-        text-align: left;
-        font-size: 20px;
-        background: #333;
-
-        ul {
-            list-style: none;
-
-            li {
-                color: #fff;
-                text-decoration: none;
-            }
-        }
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 }
-#spinnery {
-    border: 20px solid #CCCCCC;
-    border-top: 20px solid #1177FF;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    Animation-name: fadespinner;
-    Animation-delay: 2s;
-    Animation-duration: 4s;
-    Animation-iteration-count: infinite;
-    @keyframes fadespinner
-    {
-      From {
-        Opacity : 1;
-      }
-      To {
-        Opacity : 0;
-      }
-    }
-      
-      @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-      }
-    }
-    @keyframes color {
-        100%,
-        0% {
-          stroke: $primary;
-        }
-        40% {
-          stroke: $second;
-        }
-        66% {
-          stroke: $third;
-        }
-        80%,
-        90% {
-          stroke: $second;
-        }
-      }
-      

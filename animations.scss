@@ -36,7 +36,6 @@
   66% {
     stroke: $third;
   }
-  80%,
   90% {
     stroke: $second;
   }
@@ -69,4 +68,44 @@
   0% { transform: translate(0,  0px); }
     50%  { transform: translate(0, 15px); }
     100%   { transform: translate(0, -0px); }  
+}
+@keyframes checkbox-contain{
+  0% {
+    transform: translate(50px, 0);
+  }
+
+  30% {
+    transform: translate(25px, 0);
+  }
+
+  65% {
+    transform: translate(12px, 0);
+  }
+
+  100% {
+    transform: translate(1px, 0);
+  }
+}
+@keyframes checkbox {
+  0% {
+    transform: translate(50px, 0);
+  }
+
+  25% {
+    transform: translate(30px, 0);
+  }
+
+  45% {
+    transform: translate(20px, 0);
+  }
+  65% {
+    transform: translate(15px, 0);
+  }
+  82% {
+    transform: translate(7px, 0);
+  }
+
+  100% {
+    transform: translate(1px, 0);
+  }
 }
