@@ -25,21 +25,7 @@
     Opacity : 0;
   }
 }
-@keyframes color {
-  100%,
-  0% {
-    stroke: $primary;
-  }
-  40% {
-    stroke: $second;
-  }
-  66% {
-    stroke: $third;
-  }
-  90% {
-    stroke: $second;
-  }
-}
+
 
 @keyframes rotate-center{
   0% {
@@ -107,5 +93,17 @@
 
   100% {
     transform: translate(1px, 0);
+  }
+}
+@keyframes slide{
+  
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
   }
 }

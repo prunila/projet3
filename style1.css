@@ -75,30 +75,46 @@ header img {
 }
 
 .coeur {
+  cursor: pointer;
   position: relative;
   opacity: 1;
-  color: #9d9d9d;
   font-size: 2em;
   margin-right: 35px;
   margin-top: 10px;
 }
 
-.coeur .pink {
+.coeur .hide {
+  opacity: 1;
+  position: absolute;
+  top: 0;
   left: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.coeur .pink {
   opacity: 0;
   position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  background: -webkit-gradient(linear, right top, left top, from(#ff79da), to(#9356dc));
+  background: linear-gradient(to left, #ff79da, #9356dc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
-.coeur :hover {
-  cursor: pointer;
-  opacity: 1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
-  background: linear-gradient(#ff79da, #9356dc);
-  -webkit-transition-duration: 2s;
-          transition-duration: 2s;
+.coeur:hover {
+  font-size: 1.5em;
 }
 
-.hide {
+.coeur:hover .hide {
+  opacity: 0;
+}
+
+.coeur:hover .pink {
   opacity: 1;
 }
 
@@ -165,31 +181,46 @@ header img {
   overflow: hidden;
 }
 
-.assiette:hover .rotate-center {
+.assiette .rotate-center {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 15%;
           flex: 0 0 15%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: #99E2D0;
-  max-width: 70px;
-  -webkit-animation: rotate-center 0.8s;
-          animation: rotate-center 0.8s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-transform-origin: 50% 80%;
-          transform-origin: 50% 80%;
-  -webkit-transition-duration: 2s;
-          transition-duration: 2s;
+  max-width: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
-.assiette:hover .btn-circle {
+.assiette .rotate-center i {
   position: relative;
-  left: 27%;
-  top: 30%;
-  -webkit-transform: rotate(-20deg);
-          transform: rotate(-20deg);
+  top: 0;
+  left: 20px;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: left 1s, -webkit-transform 0s;
+  transition: left 1s, -webkit-transform 0s;
+  transition: transform 0s, left 1s;
+  transition: transform 0s, left 1s, -webkit-transform 0s;
+}
+
+.assiette:hover .rotate-center {
+  max-width: 70px;
+}
+
+.assiette:hover .rotate-center i {
+  left: 0;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  -webkit-transition: left 1s, -webkit-transform 1s;
+  transition: left 1s, -webkit-transform 1s;
+  transition: transform 1s, left 1s;
+  transition: transform 1s, left 1s, -webkit-transform 1s;
 }
 
 .choix {
@@ -223,31 +254,28 @@ header img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 17px;
-  font-weight: bold;
-  margin-top: 18px;
-  padding-right: 10px;
-  text-align: right;
-}
-
-.prixconteneur .rotate-center {
-  display: none;
-  width: 30%;
-  border-bottom-right-radius: 15px;
-  border-top-right-radius: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 1rem;
 }
 
 .btn-circle {
   font-size: 24px;
   color: #fff;
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .bol {
@@ -270,6 +298,19 @@ header img {
   overflow: hidden;
 }
 
+.choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
 .pret {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -289,38 +330,56 @@ header img {
 
 .pret :hover {
   background-color: #99E2D0;
-  left: 27%;
-  top: 30%;
-  -webkit-transform: rotate(-20deg);
-          transform: rotate(-20deg);
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: slide;
+          animation-name: slide;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.butoncerc {
+  font-size: 24px;
+  color: #fff;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .cerc {
-  display: none;
-  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
 }
 
-.cerc :hover {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 15%;
-          flex: 0 0 15%;
-  background: #99E2D0;
-  max-width: 70px;
-  -webkit-animation: checkbox 0.8s;
-          animation: checkbox 0.8s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-transform-origin: 50% 80%;
-          transform-origin: 50% 80%;
-  -webkit-transition-duration: 2s;
-          transition-duration: 2s;
+/*
+.cerc:hover   .cerc qui est survolé
+.cerc :hover      tous les éléments survolés qui sont les descendants de .cerc
+
+.toto.titi 
+.toto{
+    &.titi{
+        ......
+    }
 }
 
+
+
+.toto    .titi
+.toto{
+    .titi{
+        ......
+    }
+}
+*/
 .btn {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
