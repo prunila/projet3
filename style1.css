@@ -78,6 +78,7 @@ header img {
   cursor: pointer;
   position: relative;
   opacity: 1;
+  color: #9d9d9d;
   font-size: 2em;
   margin-right: 35px;
   margin-top: 10px;
@@ -278,108 +279,6 @@ header img {
           align-items: center;
 }
 
-.bol {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: #f8f6f6;
-  -webkit-box-shadow: 1 6px 16px 1 #c3c3c3;
-          box-shadow: 1 6px 16px 1 #c3c3c3;
-  margin: 11px 0;
-  cursor: pointer;
-  border-radius: 21px;
-  height: 27%;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 33%;
-          flex: 1 0 33%;
-  overflow: hidden;
-}
-
-.choice {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 100%;
-}
-
-.pret {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 17px;
-  font-weight: bold;
-  margin-top: 18px;
-  padding-right: 10px;
-  text-align: right;
-}
-
-.pret :hover {
-  background-color: #99E2D0;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-name: slide;
-          animation-name: slide;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-}
-
-.butoncerc {
-  font-size: 24px;
-  color: #fff;
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-.cerc {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 50%;
-  border-bottom-right-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
-/*
-.cerc:hover   .cerc qui est survolé
-.cerc :hover      tous les éléments survolés qui sont les descendants de .cerc
-
-.toto.titi 
-.toto{
-    &.titi{
-        ......
-    }
-}
-
-
-
-.toto    .titi
-.toto{
-    .titi{
-        ......
-    }
-}
-*/
 .btn {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;

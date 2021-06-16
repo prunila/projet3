@@ -129,15 +129,17 @@ h3 {
 .coeur {
     //cursor: pointer;
     //position: relative;
-    //opacity: 1;
-    //color: #9d9d9d;
-    //font-size: 1.7em;
-    // margin-right: -50rem;
-    //margin-top: 10px;
-    //position: relative;
+    opacity: 1;
+    color: #9d9d9d;
+    font-size: 1.7em;
 
-    margin-right: 22px;
-    margin-top: 4px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    //margin-right: 22px;
+
 
     i {
         color: #9d9d9d;
@@ -171,7 +173,7 @@ h3 {
 }
 
 &:hover {
-    font-size: 1.8em;
+    font-size: 1.5em;
 
     .hide {
         opacity: 0;
@@ -275,7 +277,7 @@ h3 {
 }
 
 figure {
-    display: block;
+    display: flex;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 40px;
@@ -283,14 +285,16 @@ figure {
 }
 
 .carteresto {
-    position: relative;
+    //  position: relative;
     display: flex;
-    flex-direction: column;
-    margin: 15px;
+    //  flex-direction: column;
+    //  margin: 15px;
     background: #fff;
     box-shadow: $boxshadow;
     border-radius: 18px;
-    width: 100%;
+    //  width: 100%;
+    justify-content: space-between;
+    position: absolute;
 
 
     img {
@@ -310,16 +314,22 @@ figure {
 .carterestotitle {
 
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    width: 100%;
-    margin-top: 10px;
+    ///  justify-content: space-between;
+    // flex-direction: column;
+    //  flex-wrap: nowrap;
+    // width: 100%;
+    // margin-top: 10px;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+
 
     h3 {
         font-weight: 300;
         font-size: 1.1rem;
         margin-left: 0;
+        width: 80%;
     }
 }
 
@@ -329,11 +339,12 @@ figure {
     font-weight: bold;
     font-size: 1.1rem;
     font-family: "Roboto", sans-serif;
+    width: 80%;
 }
 
 
 figcaption {
-   
+
     top: 10px;
     right: 10px;
     background: #99e2d0;
@@ -346,7 +357,7 @@ figcaption {
 
 .étiquette {
 
-    position: absolute;
+   
     top: 30px;
     right: 10px;
     background: #99e2d0;
@@ -473,8 +484,6 @@ li {
 }
 
 
-
-
 @media (min-width: 1024px) {
     .headerlogo {
         display: flex;
@@ -558,12 +567,11 @@ li {
     }
 
     .carteresto {
-        
+        position: absolute;
         display: flex;
         width: 20%;
         height: 20%
     }
-
 
     .carteresto h2 h3 a {
         font-size: 0.5em;
@@ -573,7 +581,6 @@ li {
         color: black;
 
     }
-
 
     footer {
         display: flex;

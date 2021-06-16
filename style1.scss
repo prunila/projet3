@@ -74,7 +74,7 @@ header img {
     cursor: pointer;
     position: relative;
     opacity: 1;
-    // color: #9d9d9d;
+    color: #9d9d9d;
     font-size: 2em;
     margin-right: 35px;
     margin-top: 10px;
@@ -226,107 +226,7 @@ header img {
     align-items: center;
 }
 
-//EXERCICE////
-.bol {
-    display: flex;
-    justify-content: space-between;
-    background-color: #f8f6f6;
-    box-shadow: 1 6px 16px 1 #c3c3c3;
-    margin: 11px 0;
-    cursor: pointer;
-    border-radius: 21px;
-    height: 27%;
-    flex: 1 0 33%;
-    overflow: hidden;
-}
 
-.choice {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.pret {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 17px;
-    font-weight: bold;
-    margin-top: 18px;
-    padding-right: 10px;
-    text-align: right;
-
-    :hover {
-
-        background-color: $third;
-
-        animation-duration: 3s;
-        animation-name: slide;
-        animation-iteration-count: infinite;
-    }
-}
-
-
-
-.butoncerc {
-    font-size: 24px;
-    color: #fff;
-    transform: rotate(360deg);
-
-}
-
-
-.cerc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
- border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
-
-
-
-    // &:hover {
-    //     display: flex;
-
-    //     background: $third;
-    //     width: 100%;
-
-    //     animation-fill-mode: forwards;
-    //     transform-origin: 50% 80%;
-    //     opacity: 1;
-
-    //     i{
-    //         transform: rotateX(25deg);
-    //     }
-    // }
-
-}
-
-/*
-.cerc:hover   .cerc qui est survolé
-.cerc :hover      tous les éléments survolés qui sont les descendants de .cerc
-
-.toto.titi 
-.toto{
-    &.titi{
-        ......
-    }
-}
-
-
-
-.toto    .titi
-.toto{
-    .titi{
-        ......
-    }
-}
-*/
-
-
-//EXERCICE FIN///
 .btn {
     display: inline-flex;
     background: linear-gradient(#ff79da, #9356dc);
