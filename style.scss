@@ -1,4 +1,4 @@
-@import url(C:\Users\33677\Desktop\sassworkshop\dart-sass\animations.css);
+@import url(dart-sass/animations.css);
 
 $primary:#9356dc;
 $second:#ff79da;
@@ -42,9 +42,8 @@ header {
     display: flex;
     text-align: center;
     // width: 100%;
-    //padding: 5px 46px;
-    // border-bottom: 2px solid #f4f4f4;
-    box-shadow: 0 1px 4px rgb (0 0 0 / 30);
+
+    box-shadow: 0 1px 4px rgb (0 0 0 30);
 }
 
 header img {
@@ -102,14 +101,7 @@ main {
 }
 
 article.hgroup {
-    //  background-color: transparent;
 
-    // display: flex;
-    //  align-items: center;
-    // flex-wrap: wrap;
-    // font-size: 25px;
-    // font-weight: bold;
-    //  line-height: 1;
     flex: 100%;
     text-align: center;
     padding: 30px 10px;
@@ -221,10 +213,10 @@ h3 {
 }
 
 .btn1 {
-   
+
     flex: 1 0 auto;
     margin-bottom: 20px;
-     background: #e9e9e9;
+    background: #e9e9e9;
     border-radius: 30px;
     font-size: 25px;
     font-family: "Roboto", sans-serif;
@@ -233,17 +225,17 @@ h3 {
     box-shadow: $boxshadow;
     display: flex;
     justify-content: space-around;
-   
+
     width: 100%;
-   
+
 }
 
 
-.texte{
+.texte {
     display: flex;
     align-items: center;
     justify-content: center;
-font-size: 18px;
+    font-size: 18px;
 }
 
 .fonctionnement {
@@ -258,9 +250,10 @@ font-size: 18px;
     display: flex;
     flex-direction: column;
     background: #fff;
-a{
-    text-decoration: none;
-}
+
+    a {
+        text-decoration: none;
+    }
 
 }
 
@@ -554,14 +547,14 @@ li {
         flex-direction: column;
         width: 100%;
         padding: 15px;
-      
+
 
         #petitfonctionnement {
             display: flex;
             justify-content: space-between;
             flex-direction: row;
             width: 60%;
-            
+
 
         }
     }

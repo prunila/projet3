@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(C:\Users\33677\Desktop\sassworkshop\dart-sass\animations.css);
+@import url(dart-sass/animations.css);
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -46,8 +46,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   text-align: center;
-  -webkit-box-shadow: 0 1px 4px rgb 0 0 0/30;
-          box-shadow: 0 1px 4px rgb 0 0 0/30;
+  -webkit-box-shadow: 0 1px 4px rgb 0 0 0 30;
+          box-shadow: 0 1px 4px rgb 0 0 0 30;
 }
 
 header img {
