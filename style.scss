@@ -52,7 +52,7 @@ header img {
     align-items: center;
     justify-content: center;
     height: 70px;
-    
+
 }
 
 
@@ -102,18 +102,19 @@ main {
 }
 
 article.hgroup {
-  //  background-color: transparent;
-    
-   // display: flex;
-  //  align-items: center;
-   // flex-wrap: wrap;
-   // font-size: 25px;
-   // font-weight: bold;
-  //  line-height: 1;
-  flex: 100%;
-  text-align: center;
-  padding: 30px 10px;
-  background-color: transparent;
+    //  background-color: transparent;
+
+    // display: flex;
+    //  align-items: center;
+    // flex-wrap: wrap;
+    // font-size: 25px;
+    // font-weight: bold;
+    //  line-height: 1;
+    flex: 100%;
+    text-align: center;
+    padding: 30px 10px;
+    background-color: transparent;
+
     h2 {
         text-decoration: none;
         color: #000;
@@ -134,22 +135,23 @@ h3 {
     position: relative;
     opacity: 1;
     // color: #9d9d9d;
-    $tmp : 1,7rem;
+    $tmp: 1, 7rem;
     font-size: $tmp;
-    
+
     // top: 50px;
     // width: 20%;
     // right: 20px;
     // background-color: chocolate;
 
-    .hide, .pink {
+    .hide,
+    .pink {
         // font-size: 24px;
         position: absolute;
         top: 0;
         right: 0;
         transition: 1s;
     }
-    
+
 }
 
 .hide {
@@ -161,9 +163,12 @@ h3 {
 .pink {
     opacity: 0;
     background: linear-gradient(to left, #ff79da, #9356dc);
-    background-clip: text;  /* background-clip */
-    -webkit-background-clip: text;  /* background-clip */
-    color: transparent; /* background-clip */
+    background-clip: text;
+    /* background-clip */
+    -webkit-background-clip: text;
+    /* background-clip */
+    color: transparent;
+    /* background-clip */
 }
 
 .coeur:hover {
@@ -225,14 +230,14 @@ h3 {
     box-shadow: $boxshadow;
     align-items: center;
     justify-content: space-around;
-   
+
 
 }
 
 .fonctionnement {
     flex-direction: column;
     padding: 15px;
-    
+
 
 }
 
@@ -242,21 +247,21 @@ h3 {
 
 .pas {
     display: flex;
-   
+
     background: #fff;
-   
+
 
 }
 
 .circle {
 
-    
+
     background: #9356dc;
     border-radius: 50%;
     color: #fff;
     display: flex;
     justify-content: center;
-     padding: 13px 13px 13px 13px;
+    padding: 13px 13px 13px 13px;
     font-weight: bold;
 
 }
@@ -291,14 +296,14 @@ figure {
     background: #fff;
     box-shadow: $boxshadow;
     border-radius: 18px;
-   justify-content: space-between;
+    justify-content: space-between;
 
 
 
     img {
         object-fit: cover;
         width: 100%;
-border-radius: 15px;
+        border-radius: 15px;
     }
 }
 
@@ -380,24 +385,30 @@ footer {
     font-size: 20px;
     background: #333;
     color: white;
-    img{
+
+    img {
         display: flex;
         justify-content: center;
         width: 100%;
-        
-    }
 
+    }
+}
+#textefooter{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
 
- li  {
+li {
     list-style: none;
     line-height: 2;
     cursor: pointer;
-    a{
+
+    a {
         text-decoration: none;
         color: white;
-        
-        &:hover{
+
+        &:hover {
             cursor: pointer;
         }
     }
