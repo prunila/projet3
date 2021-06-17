@@ -157,7 +157,7 @@ h3 {
   cursor: pointer;
   position: relative;
   opacity: 1;
-  font-size: 1, 7rem;
+  font-size: 1.7rem;
 }
 
 .coeur .hide,
@@ -334,20 +334,6 @@ h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-figure {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-margin-before: 1em;
-          margin-block-start: 1em;
-  -webkit-margin-after: 1em;
-          margin-block-end: 1em;
-  -webkit-margin-start: 40px;
-          margin-inline-start: 40px;
-  -webkit-margin-end: 40px;
-          margin-inline-end: 40px;
 }
 
 .carteresto {
