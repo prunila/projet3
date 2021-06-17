@@ -60,8 +60,7 @@ header img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 90px;
-  padding: 5px 207px;
+  height: 70px;
 }
 
 .map {
@@ -134,19 +133,12 @@ main {
 }
 
 article.hgroup {
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+  text-align: center;
+  padding: 30px 10px;
   background-color: transparent;
-  width: 49%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  font-size: 25px;
-  font-weight: bold;
-  line-height: 1;
 }
 
 article.hgroup h2 {
@@ -164,37 +156,40 @@ h3 {
 }
 
 .coeur {
+  cursor: pointer;
   position: relative;
-  margin-right: 22px;
-  margin-top: 4px;
-}
-
-.coeur .hide {
   opacity: 1;
+  font-size: 1, 7rem;
+}
+
+.coeur .hide, .coeur .pink {
   position: absolute;
   top: 0;
-  left: 0;
-  z-index: 2;
+  right: 0;
   -webkit-transition: 1s;
   transition: 1s;
 }
 
-.coeur .pink {
+.hide {
+  opacity: 1;
+  z-index: 2;
+  color: #9d9d9d;
+}
+
+.pink {
   opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-transition: 1s;
-  transition: 1s;
   background: -webkit-gradient(linear, right top, left top, from(#ff79da), to(#9356dc));
   background: linear-gradient(to left, #ff79da, #9356dc);
   background-clip: text;
+  /* background-clip */
   -webkit-background-clip: text;
+  /* background-clip */
   color: transparent;
+  /* background-clip */
 }
 
 .coeur:hover {
-  font-size: 1.8em;
+  font-size: 1.5rem;
 }
 
 .coeur:hover .hide {
@@ -250,7 +245,7 @@ h3 {
   border-radius: 30px;
   text-align: justify;
   margin-left: 0;
-  font-size: 45px;
+  font-size: 25px;
   font-family: "Roboto", sans-serif;
   color: #000;
   font-weight: bold;
@@ -260,7 +255,8 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .fonctionnement {
@@ -269,7 +265,6 @@ h3 {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 15px;
-  margin: 10px 5px;
 }
 
 #petitfonctionnement {
@@ -280,17 +275,12 @@ h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   background: #fff;
-  margin-left: 25px;
 }
 
 .circle {
-  left: 12px;
-  margin-top: -7px;
   background: #9356dc;
-  border-radius: 90%;
+  border-radius: 50%;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -298,8 +288,7 @@ h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 25px;
-  padding: 3px 30px;
+  padding: 13px 13px 13px 13px;
   font-weight: bold;
 }
 
@@ -327,7 +316,9 @@ h3 {
 }
 
 figure {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-margin-before: 1em;
           margin-block-start: 1em;
   -webkit-margin-after: 1em;
@@ -339,6 +330,7 @@ figure {
 }
 
 .carteresto {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -346,36 +338,26 @@ figure {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 15px;
+  margin: 18px;
   background: #fff;
   -webkit-box-shadow: 0 5px 15px 0 #c3c3c3;
           box-shadow: 0 5px 15px 0 #c3c3c3;
   border-radius: 18px;
-  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .carteresto img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
+  border-radius: 15px;
 }
 
 .carteresto a {
   text-decoration: none;
   cursor: pointer;
-}
-
-.carteresto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-family: "Roboto", sans-serif;
 }
 
 .carterestotitle {
@@ -391,6 +373,7 @@ figure {
           flex-direction: column;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  padding: 10px;
   width: 100%;
   margin-top: 10px;
 }
@@ -399,6 +382,7 @@ figure {
   font-weight: 300;
   font-size: 1.1rem;
   margin-left: 0;
+  width: 80%;
 }
 
 .carterestotitle h2 {
@@ -407,10 +391,11 @@ figure {
   font-weight: bold;
   font-size: 1.1rem;
   font-family: "Roboto", sans-serif;
+  width: 80%;
+  margin-bottom: -15px;
 }
 
 figcaption {
-  position: relative;
   top: 10px;
   right: 10px;
   background: #99e2d0;
@@ -461,7 +446,7 @@ footer img {
   color: white;
 }
 
-li {
+a li {
   list-style: none;
   line-height: 2;
   text-decoration: none;
@@ -666,7 +651,7 @@ li {
     padding: 10px 5px;
   }
   .circle {
-    margin-left: -65px;
+    margin-left: -55px;
     top: 10px;
   }
   .restaurants {
@@ -682,17 +667,14 @@ li {
         flex-flow: wrap;
     margin-left: -15px;
     margin-right: -15px;
-    padding: 15px;
-    height: 70%;
+    height: 60%;
   }
   .restaurants h2 {
     padding: 15px 0 15px 15px;
     width: 100%;
   }
   .carteresto {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    position: relative;
     width: 20%;
     height: 20%;
   }

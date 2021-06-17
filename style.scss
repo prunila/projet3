@@ -51,8 +51,8 @@ header img {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90px;
-    padding: 5px 207px
+    height: 70px;
+    
 }
 
 
@@ -102,15 +102,18 @@ main {
 }
 
 article.hgroup {
-    background-color: transparent;
-    width: 49%;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    font-size: 25px;
-    font-weight: bold;
-    line-height: 1;
-
+  //  background-color: transparent;
+    
+   // display: flex;
+  //  align-items: center;
+   // flex-wrap: wrap;
+   // font-size: 25px;
+   // font-weight: bold;
+  //  line-height: 1;
+  flex: 100%;
+  text-align: center;
+  padding: 30px 10px;
+  background-color: transparent;
     h2 {
         text-decoration: none;
         color: #000;
@@ -127,53 +130,44 @@ h3 {
 }
 
 .coeur {
-    //cursor: pointer;
-    //position: relative;
+    cursor: pointer;
+    position: relative;
     opacity: 1;
-    color: #9d9d9d;
-    font-size: 1.7em;
+    // color: #9d9d9d;
+    $tmp : 1,7rem;
+    font-size: $tmp;
+    
+    // top: 50px;
+    // width: 20%;
+    // right: 20px;
+    // background-color: chocolate;
 
-    margin-top: 10px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    //margin-right: 22px;
-
-
-    i {
-        color: #9d9d9d;
-        font-size: 24px;
-        left: 50%;
+    .hide, .pink {
+        // font-size: 24px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transition: 1s;
     }
+    
 }
 
 .hide {
     opacity: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
     z-index: 2;
-    transition: 1s;
-
-
+    color: #9d9d9d;
 }
 
 .pink {
     opacity: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    //z-index: 1;
-    transition: 1s;
     background: linear-gradient(to left, #ff79da, #9356dc);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-clip: text;  /* background-clip */
+    -webkit-background-clip: text;  /* background-clip */
+    color: transparent; /* background-clip */
 }
 
-&:hover {
-    font-size: 1.5em;
+.coeur:hover {
+    font-size: 1.5rem;
 
     .hide {
         opacity: 0;
@@ -183,6 +177,12 @@ h3 {
         opacity: 1;
     }
 }
+
+
+
+
+
+
 
 .btn {
     display: inline-block;
@@ -217,21 +217,22 @@ h3 {
     border-radius: 30px;
     text-align: justify;
     margin-left: 0;
-    font-size: 45px;
+    font-size: 25px;
     font-family: "Roboto", sans-serif;
     color: #000;
     font-weight: bold;
     padding: 20px 15px;
     box-shadow: $boxshadow;
     align-items: center;
-    width: 100%;
+    justify-content: space-around;
+   
 
 }
 
 .fonctionnement {
     flex-direction: column;
     padding: 15px;
-    margin: 10px 5px;
+    
 
 }
 
@@ -241,23 +242,21 @@ h3 {
 
 .pas {
     display: flex;
-    justify-content: space-around;
+   
     background: #fff;
-    margin-left: 25px;
+   
 
 }
 
 .circle {
 
-    left: 12px;
-    margin-top: -7px;
+    
     background: #9356dc;
-    border-radius: 90%;
+    border-radius: 50%;
     color: #fff;
     display: flex;
     justify-content: center;
-    width: 25px;
-    padding: 3px 30px;
+     padding: 13px 13px 13px 13px;
     font-weight: bold;
 
 }
@@ -285,22 +284,21 @@ figure {
 }
 
 .carteresto {
-    //  position: relative;
+    position: relative;
     display: flex;
-    //  flex-direction: column;
-    //  margin: 15px;
+    flex-direction: column;
+    margin: 18px;
     background: #fff;
     box-shadow: $boxshadow;
     border-radius: 18px;
-    //  width: 100%;
-    justify-content: space-between;
-    position: absolute;
+   justify-content: space-between;
+
 
 
     img {
         object-fit: cover;
         width: 100%;
-
+border-radius: 15px;
     }
 }
 
@@ -312,18 +310,14 @@ figure {
 }
 
 .carterestotitle {
-
+    // position: relative;
     display: flex;
-    ///  justify-content: space-between;
-    // flex-direction: column;
-    //  flex-wrap: nowrap;
-    // width: 100%;
-    // margin-top: 10px;
-
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 95%;
-
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
 
     h3 {
         font-weight: 300;
@@ -340,6 +334,8 @@ figure {
     font-size: 1.1rem;
     font-family: "Roboto", sans-serif;
     width: 80%;
+    margin-bottom: -15px;
+
 }
 
 
@@ -357,7 +353,7 @@ figcaption {
 
 .étiquette {
 
-   
+    position: absolute;
     top: 30px;
     right: 10px;
     background: #99e2d0;
@@ -390,11 +386,12 @@ footer {
     }
 }
 
-li {
+ a li {
     list-style: none;
     line-height: 2;
     text-decoration: none;
     color: white;
+    
 }
 
 
@@ -543,7 +540,7 @@ li {
     }
 
     .circle {
-        margin-left: -65px;
+        margin-left: -55px;
         top: 10px;
 
     }
@@ -557,8 +554,8 @@ li {
         flex-flow: wrap;
         margin-left: -15px;
         margin-right: -15px;
-        padding: 15px;
-        height: 70%;
+
+        height: 60%;
 
         h2 {
             padding: 15px 0 15px 15px;
@@ -567,8 +564,8 @@ li {
     }
 
     .carteresto {
-        position: absolute;
-        display: flex;
+        position: relative;
+
         width: 20%;
         height: 20%
     }
