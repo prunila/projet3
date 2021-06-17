@@ -42,8 +42,7 @@ header {
     display: flex;
     text-align: center;
     // width: 100%;
-
-    box-shadow: 0 1px 4px rgb (0 0 0 30);
+   
 }
 
 header img {
@@ -127,7 +126,7 @@ h3 {
     position: relative;
     opacity: 1;
     // color: #9d9d9d;
-    $tmp: 1, 7rem;
+    $tmp: 1,7rem;
     font-size: $tmp;
 
     // top: 50px;
