@@ -279,7 +279,7 @@ header img {
           align-items: center;
 }
 
-.btn {
+.btn a {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -306,8 +306,8 @@ header img {
           transition-duration: 400ms;
 }
 
-.btn:hover {
-  opacity: 0.5;
+.btn a:hover {
+  opacity: 0.8;
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
   text-decoration: none;

@@ -1,5 +1,5 @@
-@import url(Dart-sass/animations.css);
-
+@import "Dart-sass/animations.css";
+@import "Dart-sass/mixins.scss";
 $primary:#9356dc;
 $second:#ff79da;
 $third:#99E2D0;
@@ -42,7 +42,7 @@ header {
     display: flex;
     text-align: center;
     // width: 100%;
-   
+
 }
 
 header img {
@@ -59,7 +59,7 @@ header img {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    //width: 100%;
     background-color: #e8e8e8;
 
 }
@@ -67,7 +67,6 @@ header img {
 .input-field input {
     display: flex;
     margin-left: 25px;
-    height: 90px;
     border: 0;
     align-items: center;
     background-color: transparent;
@@ -126,7 +125,7 @@ h3 {
     position: relative;
     opacity: 1;
     // color: #9d9d9d;
-    
+
     font-size: 1.7rem;
 
     // top: 50px;
@@ -174,12 +173,6 @@ h3 {
     }
 }
 
-
-
-
-
-
-
 .btn a {
     display: inline-block;
     background: linear-gradient(#ff79da, #9356dc);
@@ -201,6 +194,7 @@ h3 {
         transform: scale(1.15);
         text-decoration: none;
         cursor: pointer;
+        @include hover;
     }
 }
 
@@ -224,8 +218,10 @@ h3 {
     box-shadow: $boxshadow;
     display: flex;
     justify-content: space-around;
-
-    width: 100%;
+    width: 100%; 
+    &:hover{
+        @include hover;
+    }
 
 }
 
@@ -286,9 +282,6 @@ h3 {
     justify-content: center;
 
 }
-
-
-
 .carteresto {
     position: relative;
     display: flex;
