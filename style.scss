@@ -57,13 +57,13 @@ header img {
 .map {
 
     //display: flex;
-   // align-items: center;
+    // align-items: center;
     //justify-content: center;
     //width: 100%;
- background-color: #e8e8e8;
-   display: flex;
-   align-items: center;
-   
+    background-color: #e8e8e8;
+    display: flex;
+    align-items: center;
+
 }
 
 .input-field input {
@@ -77,13 +77,13 @@ header img {
     border: 0;
     padding: 15px 10px;
     width: 100%;
-    
-    
+
+
 }
 
 .searchicons {
     display: flex;
-    
+
     align-items: center;
     justify-content: space-between;
 
@@ -162,11 +162,9 @@ h3 {
     opacity: 0;
     background: linear-gradient(to left, #ff79da, #9356dc);
     background-clip: text;
-    /* background-clip */
     -webkit-background-clip: text;
-    /* background-clip */
     color: transparent;
-    /* background-clip */
+
 }
 
 .coeur:hover {
@@ -246,17 +244,18 @@ h3 {
     flex-direction: column;
     padding: 15px;
 
- 
+
 
 }
 
 
-.pas a{
+.pas a {
     display: flex;
     flex-direction: column;
     background: #fff;
     text-decoration: none;
-    :hover{
+
+    :hover {
         text-decoration: none;
     }
 
@@ -426,7 +425,6 @@ li {
     left: 0;
     top: 0;
     //z-index: 1;
-    // animation: spin 5s forwards;
     width: 100%;
     height: 100%;
     pointer-events: none;
@@ -487,18 +485,14 @@ li {
         border: dotted mix($third, $second) 5px;
         border-bottom-color: $third;
         border-top-color: $second;
-        // width: 20%;
-        // height: 20%;
         width: 160px;
         height: 160px;
         border-radius: 50%;
-        // background: rgba(0, 0, 0, 0.5);
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
         font-weight: bold;
-        // color: linear-gradient(#ff79da, #9356dc);
         color: #ccc;
         animation: spin 5s forwards, spinner_opacity 5s forwards, spinner_color 5s forwards;
 

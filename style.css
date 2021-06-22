@@ -168,11 +168,8 @@ h3 {
   background: -webkit-gradient(linear, right top, left top, from(#ff79da), to(#9356dc));
   background: linear-gradient(to left, #ff79da, #9356dc);
   background-clip: text;
-  /* background-clip */
   -webkit-background-clip: text;
-  /* background-clip */
   color: transparent;
-  /* background-clip */
 }
 
 .coeur:hover {
