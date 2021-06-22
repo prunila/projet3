@@ -1,6 +1,5 @@
 @charset "UTF-8";
-@import url(Dart-sass/animations.css);
-@im $primary:#9356dc;
+@import url(c:\Users\33677\Desktop\sassworkshop\dart-sass\animations.css);
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -63,38 +62,26 @@ header img {
 }
 
 .map {
+  background-color: #e8e8e8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  background-color: #e8e8e8;
 }
 
 .input-field input {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 25px;
-  height: 90px;
-  border: 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   background-color: transparent;
-  font-size: 40px;
+  border: 0;
+  padding: 15px 10px;
+  width: 100%;
 }
 
 .searchicons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -111,7 +98,7 @@ header img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 200px;
+  padding-left: 12rem;
 }
 
 main {
@@ -230,6 +217,12 @@ h3 {
           transform: scale(1.15);
   text-decoration: none;
   cursor: pointer;
+  opacity: 0.8;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
 }
 
 .btn a {
@@ -258,6 +251,15 @@ h3 {
   width: 100%;
 }
 
+.btn1:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+}
+
 .texte {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -279,7 +281,7 @@ h3 {
   padding: 15px;
 }
 
-.pas {
+.pas a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -288,9 +290,10 @@ h3 {
       -ms-flex-direction: column;
           flex-direction: column;
   background: #fff;
+  text-decoration: none;
 }
 
-.pas a {
+.pas a :hover {
   text-decoration: none;
 }
 
@@ -457,7 +460,8 @@ footer img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
+  -webkit-filter: brightness(20);
+          filter: brightness(20);
 }
 
 #textefooter {
@@ -673,7 +677,7 @@ li a:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    width: 60%;
+    width: 100%;
   }
   div.pas a {
     display: -webkit-box;
@@ -690,7 +694,7 @@ li a:hover {
     padding: 10px 5px;
   }
   .circle {
-    margin-left: -55px;
+    margin-left: -35px;
     top: 10px;
   }
   .restaurants {

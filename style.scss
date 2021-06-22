@@ -1,5 +1,5 @@
-@import "Dart-sass/animations.css";
-@import "Dart-sass/mixins.scss";
+@import "animations.css";
+@import "mixins.scss";
 $primary:#9356dc;
 $second:#ff79da;
 $third:#99E2D0;
@@ -56,26 +56,34 @@ header img {
 
 .map {
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    //display: flex;
+   // align-items: center;
+    //justify-content: center;
     //width: 100%;
-    background-color: #e8e8e8;
-
+ background-color: #e8e8e8;
+   display: flex;
+   align-items: center;
+   
 }
 
 .input-field input {
-    display: flex;
-    margin-left: 25px;
-    border: 0;
-    align-items: center;
+    //display: flex;
+    //margin-left: 25px;
+    //border: 0;
+    //align-items: center;
+    //background-color: transparent;
+    //font-size: 30px;
     background-color: transparent;
-    font-size: 40px;
+    border: 0;
+    padding: 15px 10px;
+    width: 100%;
+    
+    
 }
 
 .searchicons {
     display: flex;
-    height: 100%;
+    
     align-items: center;
     justify-content: space-between;
 
@@ -83,7 +91,7 @@ header img {
         font-size: xx-large;
         display: flex;
         align-items: center;
-        padding-left: 200px;
+        padding-left: 12rem;
     }
 
 }
@@ -243,12 +251,12 @@ h3 {
 }
 
 
-.pas {
+.pas a{
     display: flex;
     flex-direction: column;
     background: #fff;
-
-    a {
+    text-decoration: none;
+    :hover{
         text-decoration: none;
     }
 
@@ -386,8 +394,7 @@ footer {
     img {
         display: flex;
         justify-content: center;
-
-
+        filter: brightness(20);
     }
 }
 
@@ -561,7 +568,7 @@ li {
     }
 
     .circle {
-        margin-left: -55px;
+        margin-left: -35px;
         top: 10px;
 
     }

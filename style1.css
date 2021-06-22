@@ -335,6 +335,8 @@ footer img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-filter: brightness(20);
+          filter: brightness(20);
 }
 
 #textefooter {
