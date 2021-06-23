@@ -7,7 +7,7 @@
 
 h1,
 h2 {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 h3 {
@@ -58,10 +58,11 @@ header img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 70px;
+  height: 2em;
 }
 
 .map {
+  width: 100%;
   background-color: #e8e8e8;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -72,6 +73,8 @@ header img {
 }
 
 .input-field input {
+  font-size: 20px;
+  font-weight: bold;
   background-color: transparent;
   border: 0;
   padding: 15px 10px;
@@ -91,14 +94,15 @@ header img {
 }
 
 .searchicons i {
-  font-size: xx-large;
+  font-size: x-large;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 12rem;
+  margin-left: 4em;
+  padding: 0.4em 0.4em;
 }
 
 main {
@@ -123,7 +127,7 @@ article.hgroup {
       -ms-flex: 100%;
           flex: 100%;
   text-align: center;
-  padding: 30px 10px;
+  padding: 0px 10px;
   background-color: transparent;
 }
 
@@ -328,6 +332,10 @@ h3 {
           justify-content: center;
 }
 
+.marker :visited {
+  color: purple;
+}
+
 #texte {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -335,6 +343,11 @@ h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.restaurants {
+  background-color: #f4f4f4;
+  padding: 15px;
 }
 
 .carteresto {
@@ -383,7 +396,6 @@ h3 {
       flex-wrap: nowrap;
   padding: 10px;
   width: 100%;
-  margin-top: 10px;
 }
 
 .carterestotitle h3 {
@@ -459,6 +471,8 @@ footer img {
           justify-content: center;
   -webkit-filter: brightness(20);
           filter: brightness(20);
+  margin-left: 2rem;
+  margin-top: 2rem;
 }
 
 #textefooter {
