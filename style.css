@@ -16,7 +16,7 @@
   }
   100% {
     opacity: 1;
-    max-height: auto;
+    height: auto;
   }
 }
 
