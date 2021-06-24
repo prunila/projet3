@@ -240,7 +240,6 @@ header img {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  line-height: -2;
   margin-left: 15px;
 }
 
