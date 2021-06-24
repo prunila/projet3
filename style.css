@@ -16,7 +16,7 @@
   }
   100% {
     opacity: 1;
-    height: auto;
+    max-height: auto;
   }
 }
 
@@ -440,8 +440,8 @@ h3 {
   opacity: 0;
   background: -webkit-gradient(linear, right top, left top, from(#ff79da), to(#9356dc));
   background: linear-gradient(to left, #ff79da, #9356dc);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 
