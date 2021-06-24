@@ -100,8 +100,8 @@ header img {
   transition: 1s;
   background: -webkit-gradient(linear, right top, left top, from(#ff79da), to(#9356dc));
   background: linear-gradient(to left, #ff79da, #9356dc);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 
