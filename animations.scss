@@ -1,9 +1,5 @@
 // Animation page
  @keyframes fadeIn{
-  //0% {opacity: 0;
-   // max-height: 0;}
-  //100% {opacity: 1;
-  //  max-height: auto;}
   from {
     transform: scale(0.1);
   }
@@ -12,8 +8,6 @@
     transform: scale(1);
   }
 }
-    
-  
  
 // Spinner
 @keyframes spin {

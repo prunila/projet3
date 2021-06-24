@@ -367,8 +367,8 @@ li a:hover {
 .pagecarte1 {
   -webkit-animation: fadeIn 0.4s;
           animation: fadeIn 0.4s;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -397,10 +397,10 @@ li a:hover {
 }
 
 .pagecarte2 {
-  -webkit-animation: fadeIn 0.8;
-          animation: fadeIn 0.8;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation: fadeIn 0.8s;
+          animation: fadeIn 0.8s;
+  -webkit-animation-duration: 2.5s;
+  animation-duration: 2.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -431,8 +431,8 @@ li a:hover {
 .pagecarte3 {
   -webkit-animation: fadeIn 1.2s;
           animation: fadeIn 1.2s;
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+  -webkit-animation-duration: 2.8s;
+  animation-duration: 2.8s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -463,8 +463,8 @@ li a:hover {
 .pagecarte4 {
   -webkit-animation: fadeIn 1.6s;
           animation: fadeIn 1.6s;
-  -webkit-animation-duration: 4s;
-  animation-duration: 4s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -495,8 +495,8 @@ li a:hover {
 .pagecarte5 {
   -webkit-animation: fadeIn 2.0s;
           animation: fadeIn 2.0s;
-  -webkit-animation-duration: 5s;
-  animation-duration: 5s;
+  -webkit-animation-duration: 3.5s;
+  animation-duration: 3.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -527,8 +527,8 @@ li a:hover {
 .pagecarte6 {
   -webkit-animation: fadeIn 2.4s;
           animation: fadeIn 2.4s;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -559,8 +559,8 @@ li a:hover {
 .pagecarte7 {
   -webkit-animation: fadeIn 2.8s;
           animation: fadeIn 2.8s;
-  -webkit-animation-duration: 7s;
-  animation-duration: 7s;
+  -webkit-animation-duration: 4.5s;
+  animation-duration: 4.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -591,8 +591,8 @@ li a:hover {
 .pagecarte8 {
   -webkit-animation: fadeIn 3.2s;
           animation: fadeIn 3.2s;
-  -webkit-animation-duration: 8s;
-  animation-duration: 8s;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -623,8 +623,8 @@ li a:hover {
 .pagecarte9 {
   -webkit-animation: fadeIn 3.6s;
           animation: fadeIn 3.6s;
-  -webkit-animation-duration: 9s;
-  animation-duration: 9s;
+  -webkit-animation-duration: 5.6s;
+  animation-duration: 5.6s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
