@@ -365,62 +365,13 @@ li a:hover {
 }
 
 .pagecarte1 {
-  -webkit-animation: fadeIn 0.4s;
-          animation: fadeIn 0.4s;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
+  -webkit-animation: fadeIn 0.6s;
+          animation: fadeIn 0.6s;
 }
 
 .pagecarte2 {
-  -webkit-animation: fadeIn 0.8s;
-          animation: fadeIn 0.8s;
-  -webkit-animation-duration: 2.5s;
-  animation-duration: 2.5s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
 }
 
 .fadeIn {
@@ -429,30 +380,8 @@ li a:hover {
 }
 
 .pagecarte3 {
-  -webkit-animation: fadeIn 1.2s;
-          animation: fadeIn 1.2s;
-  -webkit-animation-duration: 2.8s;
-  animation-duration: 2.8s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  -webkit-animation: fadeIn 1.5s;
+          animation: fadeIn 1.5s;
 }
 
 .fadeIn {
@@ -461,30 +390,8 @@ li a:hover {
 }
 
 .pagecarte4 {
-  -webkit-animation: fadeIn 1.6s;
-          animation: fadeIn 1.6s;
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  -webkit-animation: fadeIn 2s;
+          animation: fadeIn 2s;
 }
 
 .fadeIn {
@@ -493,30 +400,8 @@ li a:hover {
 }
 
 .pagecarte5 {
-  -webkit-animation: fadeIn 2.0s;
-          animation: fadeIn 2.0s;
-  -webkit-animation-duration: 3.5s;
-  animation-duration: 3.5s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  -webkit-animation: fadeIn 2.5s;
+          animation: fadeIn 2.5s;
 }
 
 .fadeIn {
@@ -525,30 +410,8 @@ li a:hover {
 }
 
 .pagecarte6 {
-  -webkit-animation: fadeIn 2.4s;
-          animation: fadeIn 2.4s;
-  -webkit-animation-duration: 4s;
-  animation-duration: 4s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  -webkit-animation: fadeIn 3s;
+          animation: fadeIn 3s;
 }
 
 .fadeIn {
@@ -559,28 +422,6 @@ li a:hover {
 .pagecarte7 {
   -webkit-animation: fadeIn 2.8s;
           animation: fadeIn 2.8s;
-  -webkit-animation-duration: 4.5s;
-  animation-duration: 4.5s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 .fadeIn {
@@ -591,28 +432,6 @@ li a:hover {
 .pagecarte8 {
   -webkit-animation: fadeIn 3.2s;
           animation: fadeIn 3.2s;
-  -webkit-animation-duration: 5s;
-  animation-duration: 5s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 .fadeIn {
@@ -623,10 +442,6 @@ li a:hover {
 .pagecarte9 {
   -webkit-animation: fadeIn 3.6s;
           animation: fadeIn 3.6s;
-  -webkit-animation-duration: 5.6s;
-  animation-duration: 5.6s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
 }
 
 @-webkit-keyframes fadeIn {
