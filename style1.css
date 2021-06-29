@@ -367,19 +367,15 @@ li a:hover {
 .pagecarte1 {
   -webkit-animation: fadeIn 4s;
           animation: fadeIn 4s;
-  -webkit-animation-duration: 4s;
-  animation-duration: 4s;
-  animation-fill-mode: both;
-  -webkit-animation-fill-mode: both;
+  position: relative;
 }
 
 .pagecarte2 {
+  position: relative;
   -webkit-animation: fadeIn 5s;
           animation: fadeIn 5s;
   -webkit-animation-duration: 5s;
   animation-duration: 5s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
 }
 
 .fadeIn {

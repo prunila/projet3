@@ -293,21 +293,22 @@ li {
 
 .pagecarte1 {
     animation: fadeIn 4s;
-
-    -webkit-animation-duration: 4s;
-    animation-duration: 4s;
-    animation-fill-mode: both;
-    -webkit-animation-fill-mode: both;
+    position: relative;
+    //-webkit-animation-duration: 4s;
+    // animation-duration: 4s;
+    // animation-fill-mode: both;
+    //-webkit-animation-fill-mode: both;
 
 }
 
 
 .pagecarte2 {
+    position: relative;
     animation: fadeIn 5s;
     -webkit-animation-duration: 5s;
     animation-duration: 5s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+    //-webkit-animation-fill-mode: both;
+    //animation-fill-mode: both;
 }
 
 
