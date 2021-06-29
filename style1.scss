@@ -38,9 +38,7 @@ header img {
     display: flex;
     width: 100%;
     object-fit: cover;
-
-
-
+    ///height: 270px;
 }
 
 #logo {
@@ -293,12 +291,14 @@ li {
 
 .pagecarte1 {
     animation: fadeIn 2s;
-   // -webkit-animation-duration: 2s;
-   // animation-duration: 2s;
-  //  -webkit-animation-fill-mode: both;
-  //  animation-fill-mode: both;
+    transform: translateY(25px);
+   -webkit-animation-duration: 2s;
+   animation-duration: 2s;
+   animation-fill-mode: both;
+-webkit-animation-fill-mode: both;
+  
 }
-
+ 
 //@-webkit-keyframes fadeIn {
    // 0% {
   //      opacity: 0;
@@ -325,10 +325,12 @@ li {
 //}
 
 .pagecarte2 {
-    animation: fadeIn 2.7s;
+    animation: fadeIn 2.7s; 
+    transform: translateY(45px);
+
    // -webkit-animation-duration: 2.5s;
-  //  animation-duration: 2.5s;
-   // -webkit-animation-fill-mode: both;
+   animation-duration: 1s;
+   //-webkit-animation-fill-mode: both;
    // animation-fill-mode: both;
 }
 
@@ -341,6 +343,8 @@ li {
 
 .pagecarte3 {
     animation: fadeIn 3.3s;
+    transform: translateY(55px);
+    animation-duration: 1s;
     //-webkit-animation-duration: 2.8s;
     //animation-duration: 2.8s;
    // -webkit-animation-fill-mode: both;
@@ -357,6 +361,7 @@ li {
 
 .pagecarte4 {
     animation: fadeIn 3.8s;
+
   //  -webkit-animation-duration: 3s;
   //  animation-duration: 3s;
    // -webkit-animation-fill-mode: both;
