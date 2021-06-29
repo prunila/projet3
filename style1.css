@@ -365,23 +365,21 @@ li a:hover {
 }
 
 .pagecarte1 {
-  -webkit-animation: fadeIn 2s;
-          animation: fadeIn 2s;
-  -webkit-transform: translateY(25px);
-          transform: translateY(25px);
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation: fadeIn 4s;
+          animation: fadeIn 4s;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
   animation-fill-mode: both;
   -webkit-animation-fill-mode: both;
 }
 
 .pagecarte2 {
-  -webkit-animation: fadeIn 2.7s;
-          animation: fadeIn 2.7s;
-  -webkit-transform: translateY(45px);
-          transform: translateY(45px);
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation: fadeIn 5s;
+          animation: fadeIn 5s;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .fadeIn {
@@ -390,12 +388,13 @@ li a:hover {
 }
 
 .pagecarte3 {
-  -webkit-animation: fadeIn 3.3s;
-          animation: fadeIn 3.3s;
-  -webkit-transform: translateY(55px);
-          transform: translateY(55px);
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation: fadeIn 6s;
+          animation: fadeIn 6s;
+  animation-duration: 6s;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .fadeIn {

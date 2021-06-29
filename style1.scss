@@ -62,7 +62,7 @@ header img {
     margin-top: -50px;
     background-color: #e9e9e9;
     justify-content: space-between;
-    
+
     position: relative;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -225,7 +225,7 @@ header img {
 }
 
 
-.btn a{
+.btn a {
     display: inline-flex;
     background: linear-gradient(#ff79da, #9356dc);
     text-decoration: none;
@@ -258,15 +258,17 @@ footer {
     font-size: 20px;
     background: #333;
     color: white;
+
     img {
         display: flex;
         justify-content: center;
-       filter: brightness(20);
-       margin-left: 2rem;
-       margin-top: 2rem;
+        filter: brightness(20);
+        margin-left: 2rem;
+        margin-top: 2rem;
     }
 
 }
+
 #textefooter {
     display: flex;
     flex-direction: column;
@@ -290,48 +292,22 @@ li {
 
 
 .pagecarte1 {
-    animation: fadeIn 2s;
-    transform: translateY(25px);
-   -webkit-animation-duration: 2s;
-   animation-duration: 2s;
-   animation-fill-mode: both;
--webkit-animation-fill-mode: both;
-  
+    animation: fadeIn 4s;
+
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+
 }
- 
-//@-webkit-keyframes fadeIn {
-   // 0% {
-  //      opacity: 0;
-  //  }
 
-  //  100% {
-  //      opacity: 1;
-    //}
-//}
-
-//@keyframes fadeIn {
-  //  0% {
-  //      opacity: 0;
- //   }
-
-   // 100% {
-   //     opacity: 1;
-   // }
-//}
-
-//.fadeIn {
-    //-webkit-animation-name: fadeIn;
-    //animation-name: fadeIn;
-//}
 
 .pagecarte2 {
-    animation: fadeIn 2.7s; 
-    transform: translateY(45px);
-
-   // -webkit-animation-duration: 2.5s;
-   animation-duration: 1s;
-   //-webkit-animation-fill-mode: both;
-   // animation-fill-mode: both;
+    animation: fadeIn 5s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 
@@ -342,13 +318,13 @@ li {
 
 
 .pagecarte3 {
-    animation: fadeIn 3.3s;
-    transform: translateY(55px);
-    animation-duration: 1s;
-    //-webkit-animation-duration: 2.8s;
-    //animation-duration: 2.8s;
-   // -webkit-animation-fill-mode: both;
-   // animation-fill-mode: both;
+    animation: fadeIn 6s;
+
+    animation-duration: 6s;
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 
@@ -362,10 +338,10 @@ li {
 .pagecarte4 {
     animation: fadeIn 3.8s;
 
-  //  -webkit-animation-duration: 3s;
-  //  animation-duration: 3s;
-   // -webkit-animation-fill-mode: both;
-   // animation-fill-mode: both;
+    //  -webkit-animation-duration: 3s;
+    //  animation-duration: 3s;
+    // -webkit-animation-fill-mode: both;
+    // animation-fill-mode: both;
 }
 
 .fadeIn {
@@ -376,10 +352,10 @@ li {
 
 .pagecarte5 {
     animation: fadeIn 4.2s;
-  //  -webkit-animation-duration: 3.5s;
-  //  animation-duration: 3.5s;
-  //  -webkit-animation-fill-mode: both;
-  //  animation-fill-mode: both;
+    //  -webkit-animation-duration: 3.5s;
+    //  animation-duration: 3.5s;
+    //  -webkit-animation-fill-mode: both;
+    //  animation-fill-mode: both;
 }
 
 
@@ -394,8 +370,8 @@ li {
     animation: fadeIn 4.7s;
     //-webkit-animation-duration: 4s;
     //animation-duration: 4s;
-   // -webkit-animation-fill-mode: both;
-   // animation-fill-mode: both;
+    // -webkit-animation-fill-mode: both;
+    // animation-fill-mode: both;
 }
 
 .fadeIn {
@@ -423,9 +399,9 @@ li {
 .pagecarte8 {
     animation: fadeIn 5.7s;
     //-webkit-animation-duration: 5s;
-   // animation-duration: 5s;
-   // -webkit-animation-fill-mode: both;
-   // animation-fill-mode: both;
+    // animation-duration: 5s;
+    // -webkit-animation-fill-mode: both;
+    // animation-fill-mode: both;
 }
 
 
@@ -438,10 +414,10 @@ li {
 
 .pagecarte9 {
     animation: fadeIn 6.3s;
-   // -webkit-animation-duration: 5.6s;
+    // -webkit-animation-duration: 5.6s;
     //animation-duration: 5.6s;
-   // -webkit-animation-fill-mode: both;
-   // animation-fill-mode: both;
+    // -webkit-animation-fill-mode: both;
+    // animation-fill-mode: both;
 }
 
 @-webkit-keyframes fadeIn {

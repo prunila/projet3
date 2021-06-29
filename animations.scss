@@ -2,10 +2,14 @@
  @keyframes fadeIn{
   from {
     transform: scale(0.1);
+   // top:100px;
+    transform: translateY(250px);
   }
 
   to {
     transform: scale(1);
+    //top:0;
+   transform: translateY(0px);
   }
 }
  

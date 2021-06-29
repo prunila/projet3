@@ -2,10 +2,14 @@
   from {
     -webkit-transform: scale(0.1);
             transform: scale(0.1);
+    -webkit-transform: translateY(250px);
+            transform: translateY(250px);
   }
   to {
     -webkit-transform: scale(1);
             transform: scale(1);
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
   }
 }
 
@@ -13,10 +17,14 @@
   from {
     -webkit-transform: scale(0.1);
             transform: scale(0.1);
+    -webkit-transform: translateY(250px);
+            transform: translateY(250px);
   }
   to {
     -webkit-transform: scale(1);
             transform: scale(1);
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
   }
 }
 
