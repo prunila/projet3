@@ -178,6 +178,7 @@ header img {
       -ms-flex: 1 0 33%;
           flex: 1 0 33%;
   overflow: hidden;
+  position: relative;
 }
 
 .assiette .rotate-center {
@@ -365,82 +366,61 @@ li a:hover {
 }
 
 .pagecarte1 {
-  -webkit-animation: fadeIn 4s;
-          animation: fadeIn 4s;
-  position: relative;
+  -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .pagecarte2 {
-  position: relative;
-  -webkit-animation: fadeIn 5s;
-          animation: fadeIn 5s;
-  -webkit-animation-duration: 5s;
-  animation-duration: 5s;
-}
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
+  -webkit-animation: fadeIn 1.3s;
+          animation: fadeIn 1.3s;
+  -webkit-animation-duration: 1.3s;
+  animation-duration: 1.3s;
 }
 
 .pagecarte3 {
-  -webkit-animation: fadeIn 6s;
-          animation: fadeIn 6s;
-  animation-duration: 6s;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
+  -webkit-animation: fadeIn 1.6s;
+          animation: fadeIn 1.6s;
+  -webkit-animation-duration: 1.6s;
+  animation-duration: 1.6s;
 }
 
 .pagecarte4 {
-  -webkit-animation: fadeIn 3.8s;
-          animation: fadeIn 3.8s;
-}
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
+  -webkit-animation: fadeIn 1.9s;
+          animation: fadeIn 1.9s;
+  -webkit-animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
 
 .pagecarte5 {
-  -webkit-animation: fadeIn 4.2s;
-          animation: fadeIn 4.2s;
-}
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
+  -webkit-animation: fadeIn 2.2s;
+          animation: fadeIn 2.2s;
+  -webkit-animation-duration: 2.2s;
+  animation-duration: 2.2s;
 }
 
 .pagecarte6 {
-  -webkit-animation: fadeIn 4.7s;
-          animation: fadeIn 4.7s;
-}
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
+  -webkit-animation: fadeIn 2.5s;
+          animation: fadeIn 2.5s;
+  -webkit-animation-duration: 2.5s;
+  animation-duration: 2.5s;
 }
 
 .pagecarte7 {
-  -webkit-animation: fadeIn 5.2s;
-          animation: fadeIn 5.2s;
-}
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
+  -webkit-animation: fadeIn 2.8s;
+          animation: fadeIn 2.8s;
+  -webkit-animation-duration: 2.8s;
+  animation-duration: 2.8s;
 }
 
 .pagecarte8 {
-  -webkit-animation: fadeIn 5.7s;
-          animation: fadeIn 5.7s;
+  -webkit-animation: fadeIn 3.1s;
+          animation: fadeIn 3.1s;
+  -webkit-animation-duration: 3.1s;
+  animation-duration: 3.1s;
 }
 
 .fadeIn {
@@ -449,30 +429,37 @@ li a:hover {
 }
 
 .pagecarte9 {
-  -webkit-animation: fadeIn 6.3s;
-          animation: fadeIn 6.3s;
+  -webkit-animation: fadeIn 3.4s;
+          animation: fadeIn 3.4s;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-animation-duration: 3.4s;
+  animation-duration: 3.4s;
 }
 
 @-webkit-keyframes fadeIn {
-  0% {
+  from {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
     opacity: 0;
   }
-  100% {
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
     opacity: 1;
   }
 }
 
 @keyframes fadeIn {
-  0% {
+  from {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
     opacity: 0;
   }
-  100% {
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
     opacity: 1;
   }
-}
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
 }
 /*# sourceMappingURL=style1.css.map */

@@ -1,44 +1,49 @@
-
- @keyframes fadeIn{
+@keyframes fadeIn {
   from {
-    //transform: scale(0.1);
-   top:100px;
-    //transform: translateY(50px);
+    transform: translateY(200px);
     opacity: 0;
 
   }
 
   to {
-    //transform: scale(1);
-    top:0;
-   //transform: translateY(0px);
-   opacity: 1;
+    transform: translateY(0);
+    opacity: 1;
   }
 }
- 
+
 
 @keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
-@keyframes fadespinner
-{
+@keyframes fadespinner {
   From {
-    Opacity : 1;
+    Opacity: 1;
   }
+
   To {
-    Opacity : 0;
+    Opacity: 0;
   }
 }
 
 
-@keyframes rotate-center{
+@keyframes rotate-center {
   0% {
     transform: translate(50px, 0);
   }
@@ -50,9 +55,11 @@
   40% {
     transform: translate(20px, 0);
   }
+
   60% {
     transform: translate(15px, 0);
   }
+
   80% {
     transform: translate(7px, 0);
   }
@@ -61,12 +68,22 @@
     transform: translate(1px, 0);
   }
 }
+
 @keyframes elementfloat {
-  0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
-    100%   { transform: translate(0, -0px); }  
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 15px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
 }
-@keyframes checkbox-contain{
+
+@keyframes checkbox-contain {
   0% {
     transform: translate(50px, 0);
   }
@@ -83,6 +100,7 @@
     transform: translate(1px, 0);
   }
 }
+
 @keyframes checkbox {
   0% {
     transform: translate(50px, 0);
@@ -95,9 +113,11 @@
   45% {
     transform: translate(20px, 0);
   }
+
   65% {
     transform: translate(15px, 0);
   }
+
   82% {
     transform: translate(7px, 0);
   }
@@ -106,8 +126,9 @@
     transform: translate(1px, 0);
   }
 }
-@keyframes slide{
-  
+
+@keyframes slide {
+
   from {
     margin-left: 100%;
     width: 300%;
