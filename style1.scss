@@ -295,8 +295,8 @@ li {
 .pagecarte1 {
     animation: fadeIn 1s;
     -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    transition: 1s;
+    animation-duration: 2s;
+    transition: 2s;
 }
 
 
@@ -305,6 +305,7 @@ li {
     animation: fadeIn 1.3s;
     -webkit-animation-duration: 1.3s;
     animation-duration: 1.3s;
+    transition: 2s;
 }
 
 .pagecarte3 {
@@ -312,12 +313,14 @@ li {
     animation: fadeIn 1.6s;
     -webkit-animation-duration: 1.6s;
     animation-duration: 1.6s;
+    transition: 2s;
 }
 
 .pagecarte4 {
     animation: fadeIn 1.9s;
     -webkit-animation-duration: 1.9s;
     animation-duration: 1.9s;
+    transition: 2s;
 }
 
 
@@ -326,12 +329,14 @@ li {
     animation: fadeIn 2.2s;
     -webkit-animation-duration: 2.2s;
     animation-duration: 2.2s;
+    transition: 2s;
 }
 
 .pagecarte6 {
     animation: fadeIn 2.5s;
     -webkit-animation-duration: 2.5s;
     animation-duration: 2.5s;
+    transition: 2s;
 }
 
 
@@ -339,12 +344,14 @@ li {
     animation: fadeIn 2.8s;
     -webkit-animation-duration: 2.8s;
     animation-duration: 2.8s;
+    transition: 2s;
 }
 
 .pagecarte8 {
     animation: fadeIn 3.1s;
     -webkit-animation-duration: 3.1s;
     animation-duration: 3.1s;
+    transition: 2s;
 }
 
 .fadeIn {
@@ -354,7 +361,7 @@ li {
 
 .pagecarte9 {
     animation: fadeIn 3.4s;
-    transition: 1s;
+    transition: 2s;
     -webkit-animation-duration: 3.4s;
     animation-duration: 3.4s;
 }
@@ -364,6 +371,10 @@ li {
         transform: translateY(100px);
         opacity: 0;
 
+    }
+
+    50% {
+        opacity: 0.4;
     }
 
     to {
