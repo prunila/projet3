@@ -440,7 +440,7 @@ li {
     justify-content: center;
     align-items: center;
     background-color: #000c;
-    animation: spinner_opacity 3s forwards;
+    animation: spinner_opacity 2s forwards;
     overflow: hidden;
 
     @keyframes spin {
@@ -486,19 +486,7 @@ li {
         }
     }
 
-    @keyframes spinner_color {
-        0% {
-            // border-bottom: dotted 16px $third;
-            // border-top: dotted 16px $second ;
-            animation-delay: $tmp;
-        }
-
-        100% {
-            // border-bottom: dotted 16px $second;
-            // border-top: dotted 16px $third;
-        }
-    }
-
+  
 
     #small {
         border: dotted mix($third, $second) 5px;

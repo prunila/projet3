@@ -1,35 +1,25 @@
 @charset "UTF-8";
 @-webkit-keyframes fadeIn {
   from {
-    -webkit-transform: translateY(100px);
-            transform: translateY(100px);
+    -webkit-transform: translateY(200px);
+            transform: translateY(200px);
     opacity: 0;
   }
-  50% {
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
-    opacity: 0.5;
-  }
   to {
-    -webkit-transform: translateY(10px);
-            transform: translateY(10px);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
     opacity: 1;
   }
 }
 @keyframes fadeIn {
   from {
-    -webkit-transform: translateY(100px);
-            transform: translateY(100px);
+    -webkit-transform: translateY(200px);
+            transform: translateY(200px);
     opacity: 0;
   }
-  50% {
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
-    opacity: 0.5;
-  }
   to {
-    -webkit-transform: translateY(10px);
-            transform: translateY(10px);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
     opacity: 1;
   }
 }
@@ -796,8 +786,8 @@ li a:hover {
       -ms-flex-align: center;
           align-items: center;
   background-color: #000c;
-  -webkit-animation: spinner_opacity 3s forwards;
-          animation: spinner_opacity 3s forwards;
+  -webkit-animation: spinner_opacity 2s forwards;
+          animation: spinner_opacity 2s forwards;
   overflow: hidden;
 }
 
@@ -853,24 +843,6 @@ li a:hover {
     height: 0;
     width: 0;
     opacity: 0;
-  }
-}
-
-@-webkit-keyframes spinner_color {
-  0% {
-    -webkit-animation-delay: 3s;
-            animation-delay: 3s;
-  }
-  100% {
-  }
-}
-
-@keyframes spinner_color {
-  0% {
-    -webkit-animation-delay: 3s;
-            animation-delay: 3s;
-  }
-  100% {
   }
 }
 
